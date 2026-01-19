@@ -1,0 +1,60 @@
+========================================
+眼鏡電商平台 - GitHub 快速導入步驟
+========================================
+
+【重要】您的系統尚未安裝 Git，請先安裝！
+
+========================================
+步驟 1: 安裝 Git
+========================================
+
+1. 前往：https://git-scm.com/download/win
+2. 下載 Git for Windows
+3. 執行安裝程式
+4. 安裝時選擇 "Git from the command line"
+5. 其他選項保持預設
+6. 安裝完成後，重新開啟 PowerShell
+
+========================================
+步驟 2: 建立 GitHub Repository
+========================================
+
+1. 前往：https://github.com/new
+2. Repository name: glasses-shop
+3. 選擇 Public
+4. 不要勾選任何初始化選項
+5. 點擊 "Create repository"
+6. 複製 Repository URL（例如：https://github.com/YOUR_USERNAME/glasses-shop.git）
+
+========================================
+步驟 3: 執行導入命令
+========================================
+
+安裝 Git 並重新開啟 PowerShell 後，在專案目錄執行：
+
+git init
+git add .
+git commit -m "Initial commit: 眼鏡電商平台"
+git remote add origin https://github.com/YOUR_USERNAME/glasses-shop.git
+git branch -M main
+git push -u origin main
+
+（將 YOUR_USERNAME 替換為您的 GitHub 用戶名）
+
+========================================
+步驟 4: 啟用 GitHub Pages
+========================================
+
+1. 前往您的 GitHub Repository
+2. Settings > Pages
+3. Source 選擇 "GitHub Actions"
+4. 保存
+
+========================================
+完成！
+========================================
+
+部署完成後，網站將在：
+https://YOUR_USERNAME.github.io/glasses-shop/
+
+========================================
