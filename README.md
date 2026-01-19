@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 眼鏡電商平台 👓
 
 一個現代化的眼鏡電商平台，使用 React + TypeScript + Vite 構建，支援 AR 虛擬試戴功能。
@@ -123,3 +124,6 @@ MIT License
 ---
 
 **Live Demo**: [查看線上版本](https://YOUR_USERNAME.github.io/glasses-shop/)
+=======
+# glassshoping.github.io
+>>>>>>> 2d75a77dac398e5135c941e50822c8f24b4fb73e
